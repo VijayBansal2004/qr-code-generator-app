@@ -19,15 +19,19 @@ function App() {
 
   return (
     <>
-    <Heading/>
-    <InputForm  inputText={inputText}
-                size={size}
-                setSize={setSize}
-                color={color}
-                setColor={setColor}
-                isClicked={isClicked}
-                handleSubmit={handleSubmit}
-                QR={QR}/>
+    <div className="main-container">
+      <div className="background-container">
+        <Heading/>
+        <InputForm  inputText={inputText}
+                    size={size}
+                    setSize={setSize}
+                    color={color}
+                    setColor={setColor}
+                    isClicked={isClicked}
+                    handleSubmit={handleSubmit}
+                    QR={QR}/>
+      </div>
+    </div>
     </>
   )
 }

@@ -7,7 +7,7 @@ import SubmitForm from './SubmitForm';
 
 const InputForm = ({inputText ,size ,setSize ,color ,setColor ,isClicked ,handleSubmit ,QR}) => {
   return (
-    <form className="container col-12 col-lg-6 m-auto">
+    <form className="container">
       <TextInput inputText={inputText}/>
       <SizeInput size={size} setSize={setSize}/>
       <ColorInput color={color} setColor={setColor}/>
