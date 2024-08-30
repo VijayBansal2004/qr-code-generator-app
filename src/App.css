@@ -12,6 +12,7 @@ body{
 .main-container{
     height: 100vh;
     align-content: center;
+    padding-inline: 10px;
 }
 
 .background-container {
@@ -33,4 +34,11 @@ body{
 
 .qr-code{
     overflow: scroll;
+}
+
+@media (max-width:450px){
+    .background-container {
+        padding: 45px 15px;
+    }
+
 }
